@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B666E837-9003-46DB-8556-0BC194995130}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MirSyn</RootNamespace>
+    <AssemblyName>MirSyn</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>EA3FDE196107555DA0445E0B2DE112A293C11914</ManifestCertificateThumbprint>
+    <ManifestKeyFile>MicroSyn_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <PublishUrl>E:\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Alglib\ablas.cs" />
+    <Compile Include="Alglib\ablasf.cs" />
+    <Compile Include="Alglib\airyf.cs" />
+    <Compile Include="Alglib\ap.cs" />
+    <Compile Include="Alglib\autogk.cs" />
+    <Compile Include="Alglib\bdss.cs" />
+    <Compile Include="Alglib\bdsvd.cs" />
+    <Compile Include="Alglib\bessel.cs" />
+    <Compile Include="Alglib\betaf.cs" />
+    <Compile Include="Alglib\binomialdistr.cs" />
+    <Compile Include="Alglib\blas.cs" />
+    <Compile Include="Alglib\chebyshev.cs" />
+    <Compile Include="Alglib\chisquaredistr.cs" />
+    <Compile Include="Alglib\conv.cs" />
+    <Compile Include="Alglib\corr.cs" />
+    <Compile Include="Alglib\correlation.cs" />
+    <Compile Include="Alglib\correlationtests.cs" />
+    <Compile Include="Alglib\creflections.cs" />
+    <Compile Include="Alglib\dawson.cs" />
+    <Compile Include="Alglib\densesolver.cs" />
+    <Compile Include="Alglib\descriptivestatistics.cs" />
+    <Compile Include="Alglib\dforest.cs" />
+    <Compile Include="Alglib\elliptic.cs" />
+    <Compile Include="Alglib\estnorm.cs" />
+    <Compile Include="Alglib\evd.cs" />
+    <Compile Include="Alglib\expintegrals.cs" />
+    <Compile Include="Alglib\fdistr.cs" />
+    <Compile Include="Alglib\fft.cs" />
+    <Compile Include="Alglib\fht.cs" />
+    <Compile Include="Alglib\fresnel.cs" />
+    <Compile Include="Alglib\ftbase.cs" />
+    <Compile Include="Alglib\gammafunc.cs" />
+    <Compile Include="Alglib\gkq.cs" />
+    <Compile Include="Alglib\gq.cs" />
+    <Compile Include="Alglib\hblas.cs" />
+    <Compile Include="Alglib\hermite.cs" />
+    <Compile Include="Alglib\hqrnd.cs" />
+    <Compile Include="Alglib\hsschur.cs" />
+    <Compile Include="Alglib\ibetaf.cs" />
+    <Compile Include="Alglib\idwint.cs" />
+    <Compile Include="Alglib\igammaf.cs" />
+    <Compile Include="Alglib\inverseupdate.cs" />
+    <Compile Include="Alglib\jacobianelliptic.cs" />
+    <Compile Include="Alglib\jarquebera.cs" />
+    <Compile Include="Alglib\kmeans.cs" />
+    <Compile Include="Alglib\laguerre.cs" />
+    <Compile Include="Alglib\lbfgs.cs" />
+    <Compile Include="Alglib\lda.cs" />
+    <Compile Include="Alglib\ldlt.cs" />
+    <Compile Include="Alglib\legendre.cs" />
+    <Compile Include="Alglib\linreg.cs" />
+    <Compile Include="Alglib\logit.cs" />
+    <Compile Include="Alglib\lsfit.cs" />
+    <Compile Include="Alglib\mannwhitneyu.cs" />
+    <Compile Include="Alglib\matdet.cs" />
+    <Compile Include="Alglib\matgen.cs" />
+    <Compile Include="Alglib\matinv.cs" />
+    <Compile Include="Alglib\minlm.cs" />
+    <Compile Include="Alglib\mlpbase.cs" />
+    <Compile Include="Alglib\mlpe.cs" />
+    <Compile Include="Alglib\mlptrain.cs" />
+    <Compile Include="Alglib\nearestneighbor.cs" />
+    <Compile Include="Alglib\nearunityunit.cs" />
+    <Compile Include="Alglib\normaldistr.cs" />
+    <Compile Include="Alglib\odesolver.cs" />
+    <Compile Include="Alglib\ortfac.cs" />
+    <Compile Include="Alglib\pca.cs" />
+    <Compile Include="Alglib\poissondistr.cs" />
+    <Compile Include="Alglib\polint.cs" />
+    <Compile Include="Alglib\psif.cs" />
+    <Compile Include="Alglib\ratint.cs" />
+    <Compile Include="Alglib\ratinterpolation.cs" />
+    <Compile Include="Alglib\rcond.cs" />
+    <Compile Include="Alglib\reflections.cs" />
+    <Compile Include="Alglib\rotations.cs" />
+    <Compile Include="Alglib\safesolve.cs" />
+    <Compile Include="Alglib\sblas.cs" />
+    <Compile Include="Alglib\schur.cs" />
+    <Compile Include="Alglib\sdet.cs" />
+    <Compile Include="Alglib\sinverse.cs" />
+    <Compile Include="Alglib\spdgevd.cs" />
+    <Compile Include="Alglib\spline1d.cs" />
+    <Compile Include="Alglib\spline2d.cs" />
+    <Compile Include="Alglib\spline3.cs" />
+    <Compile Include="Alglib\srcond.cs" />
+    <Compile Include="Alglib\ssolve.cs" />
+    <Compile Include="Alglib\stest.cs" />
+    <Compile Include="Alglib\studenttdistr.cs" />
+    <Compile Include="Alglib\studentttests.cs" />
+    <Compile Include="Alglib\svd.cs" />
+    <Compile Include="Alglib\taskgen.cs" />
+    <Compile Include="Alglib\trfac.cs" />
+    <Compile Include="Alglib\trigintegrals.cs" />
+    <Compile Include="Alglib\trlinsolve.cs" />
+    <Compile Include="Alglib\tsort.cs" />
+    <Compile Include="Alglib\variancetests.cs" />
+    <Compile Include="Alglib\wsr.cs" />
+    <Compile Include="Alglib\xblas.cs" />
+    <Compile Include="BaseCluster.cs" />
+    <Compile Include="CircleImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CircleImageForm.Designer.cs">
+      <DependentUpon>CircleImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cluster.cs" />
+    <Compile Include="Data.cs" />
+    <Compile Include="Element.cs" />
+    <Compile Include="ElementList.cs" />
+    <Compile Include="ExternalWrapper.cs" />
+    <Compile Include="Gene.cs" />
+    <Compile Include="GeneFamilyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneFamilyForm.Designer.cs">
+      <DependentUpon>GeneFamilyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomologyPoint.cs" />
+    <Compile Include="ImageData.cs" />
+    <Compile Include="ImageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImageForm.Designer.cs">
+      <DependentUpon>ImageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KsData.cs" />
+    <Compile Include="KsOutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KsOutForm.Designer.cs">
+      <DependentUpon>KsOutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MultiAligner.cs" />
+    <Compile Include="OptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OptionForm.Designer.cs">
+      <DependentUpon>OptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matrix.cs" />
+    <Compile Include="MicrosynForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MicrosynForm.Designer.cs">
+      <DependentUpon>MicrosynForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MsyData.cs" />
+    <Compile Include="MsyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MsyForm.Designer.cs">
+      <DependentUpon>MsyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OutputForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OutputForm.Designer.cs">
+      <DependentUpon>OutputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CircleImageForm.resx">
+      <DependentUpon>CircleImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneFamilyForm.resx">
+      <DependentUpon>GeneFamilyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="imageForm.resx">
+      <DependentUpon>ImageForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KsOutForm.resx">
+      <DependentUpon>KsOutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OptionForm.resx">
+      <DependentUpon>OptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MicrosynForm.resx">
+      <DependentUpon>MicrosynForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MsyForm.resx">
+      <DependentUpon>MsyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OutputForm.resx">
+      <DependentUpon>OutputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RunForm.resx">
+      <DependentUpon>RunForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="MicroSyn_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ResultSeg.cs" />
+    <Compile Include="RunForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RunForm.Designer.cs">
+      <DependentUpon>RunForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setup.cs" />
+    <Compile Include="Text.cs" />
+    <Compile Include="Translation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\run.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_3d-apply-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_close-16.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

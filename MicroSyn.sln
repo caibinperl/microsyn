@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroSyn", "MicroSyn\MicroSyn.csproj", "{B666E837-9003-46DB-8556-0BC194995130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B666E837-9003-46DB-8556-0BC194995130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B666E837-9003-46DB-8556-0BC194995130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B666E837-9003-46DB-8556-0BC194995130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B666E837-9003-46DB-8556-0BC194995130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB5BEEA1-0327-47D7-9624-0FEAA757958E}
+	EndGlobalSection
+EndGlobal

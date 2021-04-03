@@ -1,0 +1,9 @@
+# MicroSyn: A user friendly tool for detection of microsynteny in a gene family
+
+The traditional phylogeny analysis within gene family is mainly based on DNA or amino acid sequence homologies. However, these phylogenetic tree analyses are not suitable for those "non-traditional" gene families like microRNA with very short sequences. For the normal protein-coding gene families, low bootstrap values are frequently encountered in some nodes, suggesting low confidence or likely inappropriateness of placement of those members in those nodes.
+
+We introduce MicroSyn software as a means of detecting microsynteny in adjacent genomic regions surrounding genes in gene families. MicroSyn searches for conserved, flanking colinear homologous gene pairs between two genomic fragments to determine the relationship between two members in a gene family. The colinearity of homologous pairs is controlled by a statistical distance function. As a result, gene duplication history can be inferred from the output independent of gene sequences. MicroSyn was designed for both experienced and non-expert users with a user-friendly graphical-user interface. 
+
+Case studies of the microRNA167 genes in plants and Xyloglucan ndotransglycosylase/Hydrolase family in Populus trichocarpa were presented to show the utility of the software. The easy using of MicroSyn in these examples suggests that the software is an additional valuable means to address the problem intrinsic in the computational methods and sequence qualities themselves in gene family analysis.
+
+[Bin Cai, Xiaohan Yang, Gerald A Tuskan & Zong-Ming Cheng. MicroSyn: A user friendly tool for detection of microsynteny in a gene family. BMC Bioinformaticsvolume 12, Article number: 79 (2011) ](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-79)
